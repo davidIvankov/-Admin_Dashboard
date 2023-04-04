@@ -1,0 +1,67 @@
+:root {
+  --color-base-bg: #e2e8f0;
+  --color-base-text: rgb(18, 18, 18);
+  --theme-name: "light";
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  background-color: #e2e8f0;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 2fr 3fr 3fr 1fr;
+  grid-template-rows: 2fr 2fr 2fr 2fr;
+  grid-template-areas:
+    "nav header header header"
+    "nav .projects .projects .announcements"
+    "nav .projects .projects .announcements"
+    "nav .projects .projects .trending";
+}
+
+.sidebar {
+  background-color: #1992d4;
+  color: white;
+  display: inline-grid;
+  gap: 5px;
+  padding: 20px;
+  grid-template-columns: 0.5fr 3fr;
+  grid-template-rows: repeat(12, 1fr);
+  width: auto;
+}
+
+.sidebar div img {
+  width: 25px;
+}
+
+.header {
+  background-color: white;
+  width: auto;
+  height: 200px;
+}
+
+.header img {
+  width: 25px;
+}
+form {
+  display: block;
+  left: 50%;
+  position: absolute;
+  top: 30%;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+    ".project 1 .project 4"
+    ".project 2 .project 5"
+    ".project 3 .project 6";
+}
+
+.project {
+  border: 1px solid black;
+}
