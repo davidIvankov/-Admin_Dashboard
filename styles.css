@@ -136,7 +136,7 @@ form {
 
 .wrapper {
     display: grid;
-    
+    height: fit-content;
 	grid-template-columns: 2fr 1fr;
     background-color: #E2E8F0;
     color: #000000;
