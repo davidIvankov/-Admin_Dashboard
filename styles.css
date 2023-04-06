@@ -14,6 +14,17 @@ body {
 	font-family: "Lato", sans-serif;
 }
 
+<<<<<<< Updated upstream
+=======
+input {
+	width: 100%;
+	border-radius: 25px;
+	border: none;
+	background-color: #E2E8F0;
+	padding: 10px;
+}
+
+>>>>>>> Stashed changes
 img {
   	width: 25px;
 }
@@ -31,6 +42,95 @@ main {
 	grid-template-rows: 20vh 80vh;
 }
 
+<<<<<<< Updated upstream
+=======
+form {
+	width: 85%;
+	height: 100%;
+}
+
+.header {
+	width: 100%;
+	display: grid;
+	grid-template-columns: 70% 30%;
+	height: 33%;
+	padding-top: 20px;
+}
+
+.inpt {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 15px;
+	margin-left: 30px;
+	height: 30px;
+}
+
+.flex-end {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	gap: 30px;
+	font-size: 22px;
+}
+
+.flex-end > i:hover {
+	cursor: pointer;
+	color: #F0B429;
+}
+
+.header>.flex-end img {
+	width: 40px;
+	border: 1px solid #000000;
+}
+
+.flex-end > h2 {
+	font-size: 22px;
+}
+
+.cat,
+.user-title-icon {
+	border-radius: 50%;
+}
+
+.user-title-icon {
+	width: 70px;
+	border: 1px solid #000000;
+}
+
+.user-title {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+	margin: 20px 45px;
+}
+
+.option {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	gap: 20px;
+}
+
+.option-button {
+	background-color: #1992d4;
+	border: 1px solid #1992d4;
+	border-radius: 20px;
+	color: #FFFFFF;
+	padding: 10px 25px;
+	font-size: 15px;
+	font-weight: 600;
+	transition: all 200ms ease-in-out;
+}
+
+.option-button:hover {
+	cursor: pointer;
+	background-color: #FFFFFF;
+	color: #1992d4;
+	border: 1px solid #1992d4;
+}
+
+>>>>>>> Stashed changes
 .sidebar {
 	position: fixed;
     left: 0;
@@ -79,8 +179,13 @@ main {
 	gap: 20px;
 	margin-left: 15px;
 	height: 30px;
+<<<<<<< Updated upstream
 	width: calc(20vw - 45px);
 }
+=======
+	width: 100%;
+}*/
+>>>>>>> Stashed changes
 
 .wrapper {
     display: grid;
@@ -89,7 +194,12 @@ main {
 	grid-template-columns: 2fr 1fr;
     background-color: #E2E8F0;
     color: #000000;
+<<<<<<< Updated upstream
 	height: 100vh;
+=======
+	width: 100%;
+	margin: 25px 0;
+>>>>>>> Stashed changes
 }
 
 .projects {
@@ -103,10 +213,6 @@ main {
 	margin: 40px 30px 0;
 }
 
-.project {
-	border-left: 7px solid #F0B429;
-}
-
 .project,
 .announcements,
 .trending{
@@ -115,6 +221,10 @@ main {
 	background-color: #FFFFFF;
 	color: #000000;
 	border-radius: 7px;
+}
+
+.project {
+	border-left: 7px solid #F0B429;
 }
 
 .project > p {
@@ -127,6 +237,21 @@ main {
 	margin-top: 20px;
 }
 
+<<<<<<< Updated upstream
+=======
+.project-icon {
+	border: none;
+	background-color: #FFFFFF;
+	margin: 0 10px;
+	font-size: 18px;
+}
+
+.project-icon:hover {
+	cursor: pointer;
+	color: #F0B429;
+}
+
+>>>>>>> Stashed changes
 .content2 {
 	grid-gap: 30px;
 	margin: 30px;
@@ -169,4 +294,8 @@ main {
 .trend > figcaption {
 	display: inline-block;
 	margin: 0 10px;
+<<<<<<< Updated upstream
 }
+=======
+}
+>>>>>>> Stashed changes
