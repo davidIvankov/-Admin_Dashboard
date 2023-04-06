@@ -14,8 +14,6 @@ body {
 	font-family: "Lato", sans-serif;
 }
 
-<<<<<<< Updated upstream
-=======
 input {
 	width: 100%;
 	border-radius: 25px;
@@ -24,7 +22,6 @@ input {
 	padding: 10px;
 }
 
->>>>>>> Stashed changes
 img {
   	width: 25px;
 }
@@ -42,8 +39,6 @@ main {
 	grid-template-rows: 20vh 80vh;
 }
 
-<<<<<<< Updated upstream
-=======
 form {
 	width: 85%;
 	height: 100%;
@@ -130,7 +125,6 @@ form {
 	border: 1px solid #1992d4;
 }
 
->>>>>>> Stashed changes
 .sidebar {
 	position: fixed;
     left: 0;
@@ -179,13 +173,8 @@ form {
 	gap: 20px;
 	margin-left: 15px;
 	height: 30px;
-<<<<<<< Updated upstream
-	width: calc(20vw - 45px);
-}
-=======
 	width: 100%;
 }*/
->>>>>>> Stashed changes
 
 .wrapper {
     display: grid;
@@ -194,12 +183,8 @@ form {
 	grid-template-columns: 2fr 1fr;
     background-color: #E2E8F0;
     color: #000000;
-<<<<<<< Updated upstream
-	height: 100vh;
-=======
 	width: 100%;
 	margin: 25px 0;
->>>>>>> Stashed changes
 }
 
 .projects {
@@ -237,8 +222,6 @@ form {
 	margin-top: 20px;
 }
 
-<<<<<<< Updated upstream
-=======
 .project-icon {
 	border: none;
 	background-color: #FFFFFF;
@@ -251,7 +234,6 @@ form {
 	color: #F0B429;
 }
 
->>>>>>> Stashed changes
 .content2 {
 	grid-gap: 30px;
 	margin: 30px;
@@ -294,8 +276,4 @@ form {
 .trend > figcaption {
 	display: inline-block;
 	margin: 0 10px;
-<<<<<<< Updated upstream
 }
-=======
-}
->>>>>>> Stashed changes
