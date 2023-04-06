@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css" />
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
     <title>Admin Dashboard</title>
 </head>
 
@@ -14,47 +15,49 @@
     <nav>
         <div class="sidebar">
             <div class="dashboard">
-                <img src="https://cdn-icons-png.flaticon.com/512/1828/1828765.png">
-                <h1>Dashboard</h1>
+                <h1>
+                    <i class="fa fa-th-list" aria-hidden="true"></i>
+                    Dashboard
+                </h1>
             </div>
             <div class="icons">
                 <div class="icon home">
-                    <img src="https://cdn-icons-png.flaticon.com/512/88/88282.png">
+                    <i class="fa fa-home" aria-hidden="true"></i>
                     <p>Home</p>
                 </div>
-                <div class="icon home">
-                    <img src="https://cdn-icons-png.flaticon.com/512/88/88282.png">
-                    <p>Home</p>
+                <div class="icon profile">
+                    <i class="fa fa-id-card" aria-hidden="true"></i>
+                    <p>Profile</p>
                 </div>
-                <div class="icon home">
-                    <img src="https://cdn-icons-png.flaticon.com/512/88/88282.png">
-                    <p>Home</p>
+                <div class="icon message">
+                    <i class="fa fa-comments" aria-hidden="true"></i>
+                    <p>Messages</p>
                 </div>
-                <div class="icon home">
-                    <img src="https://cdn-icons-png.flaticon.com/512/88/88282.png">
-                    <p>Home</p>
+                <div class="icon history">
+                    <i class="fa fa-history" aria-hidden="true"></i>
+                    <p>History</p>
                 </div>
-                <div class="icon home">
-                    <img src="https://cdn-icons-png.flaticon.com/512/88/88282.png">
-                    <p>Home</p>
+                <div class="icon task">
+                    <i class="fa fa-tasks" aria-hidden="true"></i>
+                    <p>Tasks</p>
                 </div>
-                <div class="icon home">
-                    <img src="https://cdn-icons-png.flaticon.com/512/88/88282.png">
-                    <p>Home</p>
+                <div class="icon community">
+                    <i class="fa fa-globe" aria-hidden="true"></i>
+                    <p>Communities</p>
                 </div>
             </div>
             <div class="icons">
-                <div class="icon home">
-                    <img src="https://cdn-icons-png.flaticon.com/512/88/88282.png">
-                    <p>Home</p>
+                <div class="icon setting">
+                    <i class="fa fa-cog" aria-hidden="true"></i>
+                    <p>Settings</p>
                 </div>
-                <div class="icon home">
-                    <img src="https://cdn-icons-png.flaticon.com/512/88/88282.png">
-                    <p>Home</p>
+                <div class="icon support">
+                    <i class="fa fa-question-circle" aria-hidden="true"></i>
+                    <p>Support</p>
                 </div>
-                <div class="icon home">
-                    <img src="https://cdn-icons-png.flaticon.com/512/88/88282.png">
-                    <p>Home</p>
+                <div class="icon privacy">
+                    <i class="fa fa-lock" aria-hidden="true"></i>
+                    <p>Privacy</p>
                 </div>
             </div>
         </div>
@@ -63,18 +66,28 @@
     <header>
         <div class="header">
             <div class="inpt">
-                <img src="https://cdn-icons-png.flaticon.com/512/149/149852.png">
+                <i class="fa fa-search"></i>
     
                 <form>
                     <input type="search" placeholder="Search...">
                 </form>
             </div>
             <div class="flex-end">
-                <img src="https://cdn-icons-png.flaticon.com/512/88/88282.png">
+                <i class="fa fa-bell" aria-hidden="true"></i>
                 <img src="https://c8.alamy.com/comp/W49X5C/cartoon-white-cat-drawing-with-yellow-eyes-simple-and-minimal-sitting-cat-doodle-cute-vector-illustration-W49X5C.jpg"
                     alt="cat icon" class="cat">
                 <h2>Morgan Oakley</h2>
     
+            </div>
+            
+            <div class="user-title">
+                <h2>Hi Morgan! What's in your thought?</h2>
+            </div>
+
+            <div class="option">
+                <button class="button">New</button>
+                <button class="button">Upload</button>
+                <button class="button">Share</button>
             </div>
     
         </div>
@@ -95,9 +108,9 @@
                             aliquip ex ea commodo consequat.
                         </p>
                         <div class="buttons">
-                            <button>favourite</button>
-                            <button>seen</button>
-                            <button>link</button>
+                            <button class="proj-icon"><i class="fa fa-star" style="font-size:18px;" aria-hidden="true"></i></button>
+                            <button class="proj-icon"><i class="fa fa-eye" style="font-size:18px;" aria-hidden="true"></i></button>
+                            <button class="proj-icon"><i class="fa fa-link" style="font-size:18px;" aria-hidden="true"></i></button>
                         </div>
                     </div>
                     <div class="project">
@@ -111,9 +124,9 @@
                             aliquip ex ea commodo consequat.
                         </p>
                         <div class="buttons">
-                            <button>favourite</button>
-                            <button>seen</button>
-                            <button>link</button>
+                            <button class="proj-icon"><i class="fa fa-star" style="font-size:18px;" aria-hidden="true"></i></button>
+                            <button class="proj-icon"><i class="fa fa-eye" style="font-size:18px;" aria-hidden="true"></i></button>
+                            <button class="proj-icon"><i class="fa fa-link" style="font-size:18px;" aria-hidden="true"></i></button>
                         </div>
                     </div>
                     <div class="project">
@@ -127,9 +140,9 @@
                             aliquip ex ea commodo consequat.
                         </p>
                         <div class="buttons">
-                            <button>favourite</button>
-                            <button>seen</button>
-                            <button>link</button>
+                            <button class="proj-icon"><i class="fa fa-star" style="font-size:18px;" aria-hidden="true"></i></button>
+                            <button class="proj-icon"><i class="fa fa-eye" style="font-size:18px;" aria-hidden="true"></i></button>
+                            <button class="proj-icon"><i class="fa fa-link" style="font-size:18px;" aria-hidden="true"></i></button>
                         </div>
                     </div>
                     <div class="project">
@@ -143,9 +156,9 @@
                             aliquip ex ea commodo consequat.
                         </p>
                         <div class="buttons">
-                            <button>favourite</button>
-                            <button>seen</button>
-                            <button>link</button>
+                            <button class="proj-icon"><i class="fa fa-star" style="font-size:18px;" aria-hidden="true"></i></button>
+                            <button class="proj-icon"><i class="fa fa-eye" style="font-size:18px;" aria-hidden="true"></i></button>
+                            <button class="proj-icon"><i class="fa fa-link" style="font-size:18px;" aria-hidden="true"></i></button>
                         </div>
                     </div>
                     <div class="project">
@@ -159,9 +172,9 @@
                             aliquip ex ea commodo consequat.
                         </p>
                         <div class="buttons">
-                            <button>favourite</button>
-                            <button>seen</button>
-                            <button>link</button>
+                            <button class="proj-icon"><i class="fa fa-star" style="font-size:18px;" aria-hidden="true"></i></button>
+                            <button class="proj-icon"><i class="fa fa-eye" style="font-size:18px;" aria-hidden="true"></i></button>
+                            <button class="proj-icon"><i class="fa fa-link" style="font-size:18px;" aria-hidden="true"></i></button>
                         </div>
                     </div>
                     <div class="project">
@@ -175,9 +188,9 @@
                             aliquip ex ea commodo consequat.
                         </p>
                         <div class="buttons">
-                            <button>favourite</button>
-                            <button>seen</button>
-                            <button>link</button>
+                            <button class="proj-icon"><i class="fa fa-star" style="font-size:18px;" aria-hidden="true"></i></button>
+                            <button class="proj-icon"><i class="fa fa-eye" style="font-size:18px;" aria-hidden="true"></i></button>
+                            <button class="proj-icon"><i class="fa fa-link" style="font-size:18px;" aria-hidden="true"></i></button>
                         </div>
                     </div>
                 </div>

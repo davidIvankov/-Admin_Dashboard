@@ -136,7 +136,7 @@ form {
 
 .wrapper {
     display: grid;
-    
+    height: fit-content;
 	grid-template-columns: 2fr 1fr;
     background-color: #E2E8F0;
     color: #000000;
@@ -177,6 +177,20 @@ form {
 	text-align: end;
 	margin-top: 20px;
 }
+
+.button {
+	background-color: #1992d4;
+	border: none;
+	border-radius: 12px;
+	color: white;
+	padding: 10px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 13px;
+	margin: 4px 2px;
+	cursor: pointer;
+  }
 
 .content2 {
 	grid-gap: 30px;
@@ -220,5 +234,29 @@ form {
 .trend > figcaption {
 	display: inline-block;
 	margin: 0 10px;
+}
+
+.flex-end > h2 {
+	font-size: 18px;
+}
+
+.user-title {
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	gap: 20px;
+	margin-left: 15px;
+}
+
+.option {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	gap: 10px;
+}
+
+.proj-icon {
+	border: none;
+	background-color: #FFFFFF;
 }
 
