@@ -86,7 +86,7 @@ form {
 	display: grid;
 	grid-template-columns: 70% 30%;
 	height: 33%;
-	padding-top: 20px;
+	padding: 20px;
 }
 
 .inpt {
