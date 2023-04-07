@@ -8,15 +8,16 @@
     <link rel="stylesheet" href="styles.css" />
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+    <script src="script.js" defer></script>
     <title>Admin Dashboard</title>
 </head>
 
 <body>
-    <nav>
+    <nav id="navbar">
         <div class="sidebar">
             <div class="dashboard">
                 <h1>
-                    <i class="fa fa-th-list" aria-hidden="true"></i>
+                    <i class="fa fa-th-list shrink" aria-hidden="true"></i>
                     Dashboard
                 </h1>
             </div>
@@ -60,8 +61,10 @@
                     <p>Privacy</p>
                 </button>
             </div>
+            <i class="fa fa-bars hamburger"></i>
         </div>
     </nav>
+    <i class="fa fa-bars hamburger" id="hamb"></i>
     <main>
         <section class="header">
             <div class="inpt">
