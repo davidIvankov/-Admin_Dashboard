@@ -23,7 +23,6 @@ input {
 }
 
 main {
-	width: calc(100vw - calc(20vw - 10px));
 	margin-left: calc(20vw - 45px);
 	display: grid;
 	grid-template-rows: 20vh 80vh;
@@ -267,38 +266,44 @@ form {
 	display: none;
 }
 
-@media  screen and (max-width: 1024px){
+@media screen and (max-width: 1024px){
 	.sidebar {
 			width: calc(27vw - 45px);
-		}
+	}
+
 	main {
 		width: calc(100vw - calc(27vw - 10px));
 			margin-left: calc(27vw - 45px);
 			grid-template-rows: 30vh 70vh;
 	}
+
 	h2 {
 		font-size: 1.2rem;
 	}
-	
 }
 
 @media screen and (max-width: 768px) {
 	.sidebar {
 			width: calc(28vw - 45px);
-		}
+	}
+
 	.projects {
 			grid-template-columns: 1fr;
-		}
+	}
+
 	.icon {
 		font-size: 15px;
 		margin-left: 7px;
 	}
+
 	.shrink {
 		font-size: 1rem;
 	}
+
 	.dashboard > h1 {
 		font-size: 1.1rem;
 	}
+
 	.menu{
 		width: 100%;
 	}
@@ -306,16 +311,20 @@ form {
 	.sidebar {
 		gap: 30px;
 	}
+
 	.flex-end {
 		gap: 15px;
 		font-size: 15px;
 	}
+
 	.flex-end > h2 {
 		font-size: 11px;
 	}
+
 	.flex-end > img {
 		width: 30px;
 	}
+
 	.inpt {
 		margin-left: 15px;
 	}
@@ -327,14 +336,17 @@ form {
 	.user-title {
 		margin: 20px 0px		
 	}
+
 	.option-button {
 		padding: 10px 20px;
 		font-size: 12px;
 		font-weight: 400;
 	}
+
 	.option {
 		gap: 10px;
 	}
+
 	h2 {
 		font-size: 1.1rem;
 		width: 200px;
@@ -345,18 +357,19 @@ form {
 	* {
 		z-index: -1;
 	}
+
 	nav {
 		transform: translateY(-100vh);
 		transition: transform .5s;
 		width: 50vw;
 	}
+
 	main {
 		width: 100vw;
 		margin-left: 0;
 		z-index: 0;
 	}
 	
-
 	.hamburger {
 		display: flex;
 		align-items: center;
@@ -374,27 +387,31 @@ form {
 	.hamburger > i {
 		font-size: 25px;
 	}
-	p{
+
+	p {
 		font-size: .9rem;
 	}
 
     .announcement > p {
 		font-size: .9rem;
 	}
+
 	.option-button {
 		padding: 10px 20px;
 		font-size: .9rem;
 		font-weight: 400;
 	}
-	.flex-end>h2 {
+
+	.flex-end > h2 {
 		font-size: .7rem;
 	}
+
 	.nav-active {
 		transform: translateY(0);
 		position: fixed;
 		z-index: 1;
-		
 	}
+	
 	.sidebar {
 		z-index: 1;
 		width: 50vw;
